@@ -1,0 +1,58 @@
+{
+  "name": "Smart Stock",
+  "short_name": "SmartStock",
+  "id": "/",
+  "description": "Aplikasi Manajemen Stok Cerdas untuk Toko dan Gudang Pakaian",
+  "categories": ["productivity", "finance", "business"],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d6efd",
+  "theme_color": "#0d6efd",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/1280x720.png?text=Smart+Stock+Dashboard",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Dashboard Stok"
+    },
+    {
+      "src": "https://via.placeholder.com/720x1280.png?text=Smart+Stock+Mobile",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Barang",
+      "short_name": "Barang",
+      "description": "Tambah barang baru ke inventaris",
+      "url": "./index.html",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Scan Barcode",
+      "short_name": "Scan",
+      "description": "Scan barcode produk",
+      "url": "./index.html",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png", "sizes": "192x192" }]
+    }
+  ]
+}
